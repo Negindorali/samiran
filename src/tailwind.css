@@ -7,3 +7,9 @@
         font-family: lalezar;
         src:url("../font/Lalezar.ttf");
     }
+
+    @font-face{
+        font-family: yekan;
+        src:url("../font/yekanbakh/YekanBakh-Regular.ttf");
+    }
+
