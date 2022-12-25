@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>سامیران خودرو</title>
+
+    <link rel="icon" type="image/png" href="./favicon.ico">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./js/OwlCarousel/assets/owl.carousel.min.css">
+</head>
+<body class="container mx-auto">
+<!--Big Device-->
+<header class="md:grid grid-cols-6 mt-4 hidden">
+    <div class="flex">
+        <img src="./img/logo.svg" alt="Samiran Logo">
+        <h1 class="self-center text-2xl">سامیران خودرو</h1>
+    </div>
+
+    <div class="col-span-3 flex">
+        <ul id="menus" class="flex self-center justify-between w-4/5 font-bold">
+            <li class="active">صفحه اصلی</li>
+            <li>خدمات ما</li>
+            <li>درباره ما</li>
+            <li>تماس با ما</li>
+        </ul>
+    </div>
+
+    <div class="flex justify-around col-span-2">
+        <a href="tel:02145964444" class="flex gap-4 tracking-wider">
+            <img src="./img/calling.svg" alt="calling">
+
+            <span class="self-center">۰۲۱۴۵۹۶۴۴۴۴</span>
+        </a>
+
+        <button>
+            <span class="main-btn flex gap-6 py-2 px-6">
+                <img src="./img/user.svg" alt="user">
+
+                <span class="self-center">ورود/عضویت</span>
+            </span>
+        </button>
+    </div>
+</header>
+
+<!--Small Device-->
+<header class="bg-white grid grid-cols-3 md:hidden py-4 px-2">
+    <div>
+        <img src="./img/menu.svg" alt="menu">
+    </div>
+
+    <div>
+        <h1 class="text-2xl">سامیران خودرو</h1>
+    </div>
+
+    <div class="flex gap-4 justify-center">
+        <img src="./img/calling_black.svg" alt="calling_black">
+
+        <button class="main-btn p-2">
+            <img src="./img/user.svg" alt="user">
+        </button>
+    </div>
+</header>
+
+<section class="grid md:grid-cols-2 mt-24">
+    <div class="flex flex-col self-center mr-2 md:mr-0">
+        <h1 class="text-4xl">ماشین بعدیت چیه؟</h1>
+
+        <h2 class="text-3xl md:text-4xl mt-4">
+            دستیار
+            <span id="info" class="text-main heading">خرید و فروش سامیران خودرو</span>
+        </h2>
+
+        <p class="font-bold tracking-wide text-xl md:text-2xl mt-6">
+            کارشناسان با تجربهٔ فنی، فروش و حقوقی ما در تمام مراحل خرید و فروش خودرو در کنار شما هستند.
+        </p>
+
+        <div class="flex mt-8 gap-4">
+            <div>
+                <button class="main-btn px-6 py-1">درباره ما</button>
+            </div>
+
+            <img src="./img/pointer_arrow.svg" alt="pointer arrow" class="mt-4">
+        </div>
+    </div>
+
+    <div>
+        <img src="./img/hero.png" alt="hero">
+    </div>
+</section>
+
+<section class="p-4">
+    <div class="bg-main rounded-3xl p-8 grid grid-cols-2 pb-40">
+        <h3 class="text-white active text-xl after:bg-white"> خدمات ما</h3>
+
+        <div class="flex gap-4 justify-end">
+            <button class="bg-white rounded-lg py-3 px-4">
+                <img src="./img/arrow.svg" alt="arrow">
+            </button>
+
+            <button class="bg-white rounded-lg py-3 px-4">
+                <img src="./img/arrow.svg" alt="arrow" class="rotate-180">
+            </button>
+        </div>
+    </div>
+
+    <div class="mx-4">
+        <div class="owl-carousel carousel owl-theme -mt-24">
+            <div class="item bg-white rounded-3xl py-6 px-4">
+                <img src="./img/car.svg" class="!w-16" alt="car">
+
+                <button class="bg-white rounded-lg py-3 px-4 w-full flex justify-between mt-6">
+                    <span class="font-bold">دستیار فروش خودرو</span>
+
+                    <img src="./img/arrow.svg" alt="arrow" class="rotate-180 self-center !w-3 h-3">
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="grid md:grid-cols-2 mt-12">
+    <div class="flex justify-center order-2 md:order-1">
+        <img src="./img/about.png" alt="about">
+    </div>
+
+    <div class="mt-6 p-4 md:p order-1 md:order-2">
+        <h2 class="text-xl">درباره</h2>
+        <h2 class="text-3xl active bg-main-after">
+            سامانه ی هوشمند
+            <span class="heading text-main">سامیران خودرو</span>
+        </h2>
+
+        <p class="mt-6 leading-relaxed text-xl tracking-wide text-justify">
+            کارنامه، محصول جدید «دیوار»، با ارائه سرویس‌های «دستیار فروش خودرو»، «دستیار خرید خودرو» «خرید خودرو با ضمانت کارنامه»، «کارشناسی خودرو و مشاورهٔ قیمت در محل» و «تخمین آنلاین قیمت خودروهای صفر و کارکرده» دستیار مطمئن شما در خرید و فروش خودرو
+            به شمار می‌آید. کارشناسان با تجربهٔ فنی، فروش و حقوقی کارنامه در تمام مراحل خرید و فروش خودرو در کنار شما هستند.
+        </p>
+    </div>
+</section>
+
+<section class="mt-12">
+    <h2 class="text-3xl active bg-main-after">
+        مزایای خرید از
+        <span class="heading text-main">سامیران خودرو</span>
+    </h2>
+
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8 pt-8">
+        <div class="bg-white rounded-3xl py-6 px-4 text-center justify-center">
+            <img src="./img/man_car.png" alt="man car" class="mx-auto">
+
+            <h3 class="text-lx my-2">کارشناسی در حضور خریدار</h3>
+
+            <p>
+                بعد از آن که تصمیم به خرید خودرویی از لیست «خرید خودرو با ضمانت کارنامه» گرفتید، آن خودرو مجدداً و در حضور شما کارشناسی و گزارش کامل فنی و بدنهٔ آن به شما ارائه می‌شود.
+            </p>
+        </div>
+
+        <div class="bg-white rounded-3xl py-6 px-4 text-center">
+            <img src="./img/man_car.png" alt="man car" class="mx-auto">
+
+            <h3 class="text-lx my-2">همراهی در پروسهٔ خرید</h3>
+
+            <p>
+                تیم پشتیبانی متخصص و حرفه‌ای کارنامه در تمام مراحل خرید در کنار شما و پاسخگوی سوالات شماست. هیچ یک از پرسش‌های شما بی‌پاسخ نمی‌ماند.
+            </p>
+        </div>
+
+        <div class="bg-white rounded-3xl py-6 px-4 text-center">
+            <img src="./img/man_car.png" alt="man car" class="mx-auto">
+
+            <h3 class="text-lx my-2">تنظیم قول‌نامه و مشاوره حقوقی</h3>
+
+            <p>
+                بعد از آن که تصمیم به خرید خودرویی از لیست «خرید خودرو با ضمانت کارنامه» گرفتید، آن خودرو مجدداً و در حضور شما کارشناسی و گزارش کامل فنی و بدنهٔ آن به شما ارائه می‌شود.
+            </p>
+        </div>
+
+        <div class="bg-white rounded-3xl py-6 px-4 text-center">
+            <img src="./img/man_car.png" alt="man car" class="mx-auto">
+
+            <h3 class="text-lx my-2">تا ۲۰۰ میلیون تومان ضمانت کارنامه</h3>
+
+            <p>
+                در صورت مغایرت گزارش کارشناسی کارنامه با وضعیت خودرویی که «با ضمانت کارنامه» خریده‌اید، کارنامه تا سقف ۲۰۰ میلیون تومان به شما خسارت پرداخت می‌کند.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="p-4">
+    <div class="rounded-3xl p-8 grid grid-cols-2 pb-40">
+        <h3 class="active text-xl bg-main-after">
+            آگهی‌های خودرو در
+            <span class="heading text-main">شهر شما</span>
+        </h3>
+
+        <div class="flex gap-4 justify-end">
+            <button class="bg-white rounded-lg py-3 px-4">
+                <img src="./img/arrow.svg" alt="arrow">
+            </button>
+
+            <button class="bg-white rounded-lg py-3 px-4">
+                <img src="./img/arrow.svg" alt="arrow" class="rotate-180">
+            </button>
+        </div>
+    </div>
+
+    <div class="mx-4">
+        <div class="owl-carousel carousel owl-theme -mt-24">
+            <div class="item bg-white rounded-3xl py-6 px-4 text-center">
+                <img src="./img/tehran.svg" alt="tehran">
+
+                <p class="pt-6 heading font-bold text-2xl">تهران</p>
+            </div>
+
+            <div class="item bg-white rounded-3xl py-6 px-4 text-center">
+                <img src="./img/karaj.svg" alt="karaj">
+
+                <p class="pt-6 heading font-bold text-2xl">کرج</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="p-4">
+    <div class="rounded-3xl p-8 grid grid-cols-2 pb-40">
+        <h3 class="active text-xl bg-main-after">
+            جدیدترین آگهی‌های
+            <span class="heading text-main">خودرو</span>
+        </h3>
+
+        <div class="flex gap-4 justify-end">
+            <button class="bg-white rounded-lg py-3 px-4">
+                <img src="./img/arrow.svg" alt="arrow">
+            </button>
+
+            <button class="bg-white rounded-lg py-3 px-4">
+                <img src="./img/arrow.svg" alt="arrow" class="rotate-180">
+            </button>
+        </div>
+    </div>
+
+    <div class="mx-4">
+        <div class="owl-carousel carousel-recent owl-theme -mt-24">
+            <div class="item bg-white rounded-3xl py-6 px-4">
+                <img src="./img/peride.jpeg" alt="peride" class="rounded-3xl">
+
+                <h4 class="mt-4">کیا پیکانتو مدل 2014</h4>
+
+                <p class="text-main my-4">
+                    ۶۵۵,۰۰۰,۰۰۰
+                    <span class="text-black">تومان</span>
+                </p>
+
+                <p>تهران</p>
+
+                <div class="flex">
+                    <button class="main-btn px-2 py-1 mr-auto">
+                        مشاهده آگهی
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <button class="main-btn px-4 py-2 flex mx-auto my-8">
+            نمایش همه
+            <img src="./img/arrow_white.svg" alt="arrow" class="rotate-180 self-center !w-3 h-3">
+        </button>
+    </div>
+</section>
+
+<section class="p-4">
+    <div class="rounded-3xl p-8 grid grid-cols-2 pb-40">
+        <h3 class="active text-xl bg-main-after">
+            آگهی‌های خودرو بر اساس
+            <span class="heading text-main">برند و مدل</span>
+        </h3>
+
+        <div class="flex gap-4 justify-end">
+            <button class="bg-white rounded-lg py-3 px-4">
+                <img src="./img/arrow.svg" alt="arrow">
+            </button>
+
+            <button class="bg-white rounded-lg py-3 px-4">
+                <img src="./img/arrow.svg" alt="arrow" class="rotate-180">
+            </button>
+        </div>
+    </div>
+
+    <div class="mx-4">
+        <div class="owl-carousel carousel-recent owl-theme -mt-24">
+            <div class="item bg-white rounded-3xl py-6 px-4">
+                <img src="./img/breliance.png" alt="breliance" class="rounded-3xl">
+
+                <h4 class="mt-4">برلیانس H330</h4>
+
+                <div class="flex">
+                    <button class="main-btn px-2 py-1 mr-auto">
+                        مشاهده
+                    </button>
+                </div>
+            </div>
+
+            <div class="item bg-white rounded-3xl py-6 px-4">
+                <img src="./img/reno.png" alt="reno" class="rounded-3xl">
+
+                <h4 class="mt-4">رنو ساندرو</h4>
+
+                <div class="flex">
+                    <button class="main-btn px-2 py-1 mr-auto">
+                        مشاهده
+                    </button>
+                </div>
+            </div>
+
+            <div class="item bg-white rounded-3xl py-6 px-4">
+                <img src="./img/l90.png" alt="l90" class="rounded-3xl">
+
+                <h4 class="mt-4">رنو تندر 90</h4>
+
+                <div class="flex">
+                    <button class="main-btn px-2 py-1 mr-auto">
+                        مشاهده
+                    </button>
+                </div>
+            </div>
+
+            <div class="item bg-white rounded-3xl py-6 px-4">
+                <img src="./img/bestern.png" alt="bestern" class="rounded-3xl">
+
+                <h4 class="mt-4">بسترن B30</h4>
+
+                <div class="flex">
+                    <button class="main-btn px-2 py-1 mr-auto">
+                        مشاهده
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="mt-4 border border-8 rounded-3xl border-[#FA6A87] bg-main text-white text-center mx-4 md:mx">
+    <h2 class="text-2xl md:text-3xl my-4">دستیار فروش خودرو با سامیران خودروی</h2>
+
+    <p class="p-4 md:p md:w-1/2 mx-auto text-xl my-4 text-justify">
+        با سرویس «دستیار فروش خودرو» امن‌ترین و بی‌دردسرترین فرآیند فروش خودرو را تجربه کنید. از کارشناسی، قیمت‌گذاری و آگهی‌کردن خودرو تا پاسخ به تمام مشتری‌ها و تنظیم قول‌نامه، همه و همه را به کارشناسان باتجربهٔ کارنامه بسپارید. این سرویس برای فروشندگان
+        خودرو رایگان و بدون کمیسیون است.
+    </p>
+
+    <button class="bg-white text-main rounded-lg px-4 py-2 flex mx-auto mb-3">
+        ثبت درخواست
+    </button>
+</section>
+
+<section class="grid md:grid-cols-2 mt-16">
+    <div class="self-center p-4 md:p">
+        <h2 class="text-2xl md:text-3xl active bg-main-after my-4">
+            کارشناسی خودرو و مشاورهٔ قیمت
+            <span class="heading text-main">در محل</span>
+        </h2>
+
+        <p class="my-4 text-xl text-justify leading-relaxed">
+            وقت خریدن خودرو، قبل از هر اقدامی آن را کارشناسی کنید. زمان فروش هم برای قیمت‌گذاری منصفانه، کارشناسی حرفه‌ای به کار شما می‌آید. با سرویس «کارشناسی خودرو و مشاورهٔ قیمت در محل» کارنامه، گزارش کاملی از وضعیت فنی و بدنۀ خودرویی که می‌خواهید
+            بخرید یا بفروشید، دریافت کنید.
+        </p>
+
+        <button class="main-btn py-1 px-3 mt-4">
+            ثبت درخواست کارشناسی
+        </button>
+    </div>
+
+    <div>
+        <img src="./img/karshenasi.png" alt="karshenasi" class="w-2/3 mx-auto">
+    </div>
+</section>
+
+<section class="p-4">
+    <div class="rounded-3xl p-8 grid grid-cols-2 pb-40">
+        <h3 class="active text-xl bg-main-after">
+            وبلاگ
+            <span class="heading text-main">سامیران خودرو</span>
+        </h3>
+
+        <div class="flex gap-4 justify-end">
+            <button class="bg-white rounded-lg py-3 px-4">
+                <img src="./img/arrow.svg" alt="arrow">
+            </button>
+
+            <button class="bg-white rounded-lg py-3 px-4">
+                <img src="./img/arrow.svg" alt="arrow" class="rotate-180">
+            </button>
+        </div>
+    </div>
+
+    <div class="mx-4">
+        <div class="owl-carousel carousel-recent owl-theme -mt-24">
+            <div class="item bg-white rounded-3xl py-6 px-4">
+                <img src="./img/post_1.png" alt="post_1" class="rounded-3xl">
+
+                <h4 class="mt-4 mb-8 text-xl">خرید و فروش خودرو در زمان شیوع کرونا به کمک کارنامه</h4>
+
+                <div class="flex">
+                    <button class="main-btn px-2 py-1 mr-auto">
+                        مشاهده نوشته
+                    </button>
+                </div>
+            </div>
+
+            <div class="item bg-white rounded-3xl py-6 px-4">
+                <img src="./img/post_2.png" alt="post_2" class="rounded-3xl">
+
+                <h4 class="mt-4 mb-8 text-xl">نحوه قیمت‌گذاری خودرو؛ چگونه روی خودروی کارکرده قیمت بگذاریم؟</h4>
+
+                <div class="flex">
+                    <button class="main-btn px-2 py-1 mr-auto">
+                        مشاهده نوشته
+                    </button>
+                </div>
+            </div>
+
+            <div class="item bg-white rounded-3xl py-6 px-4">
+                <img src="./img/post_3.png" alt="post_3" class="rounded-3xl">
+
+                <h4 class="mt-4 mb-8 text-xl">کارنامه کارشناس مطمئن شما در برابر کلاهبرداری‌ها</h4>
+
+                <div class="flex">
+                    <button class="main-btn px-2 py-1 mr-auto">
+                        مشاهده نوشته
+                    </button>
+                </div>
+            </div>
+
+            <div class="item bg-white rounded-3xl py-6 px-4">
+                <img src="./img/post_4.png" alt="post_4" class="rounded-3xl">
+
+                <h4 class="mt-4 mb-8 text-xl">نحوه قیمت‌گذاری خودرو؛ چگونه روی خودروی کارکرده قیمت بگذاریم؟</h4>
+
+                <div class="flex">
+                    <button class="main-btn px-2 py-1 mr-auto">
+                        مشاهده نوشته
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <button class="main-btn px-4 py-2 flex mx-auto my-8">
+            مشاهده وبلاگ
+            <img src="./img/arrow_white.svg" alt="arrow" class="rotate-180 self-center !w-3 h-3">
+        </button>
+    </div>
+</section>
+
+<footer class="rounded-3xl border-t border-main p-4 pt-14">
+    <div class="grid md:grid-cols-5 gap-8">
+        <div class="md:col-span-2">
+            <div class="flex">
+                <img src="./img/logo.svg" alt="Samiran Logo">
+
+                <h1 class="self-center text-2xl">سامیران خودرو</h1>
+            </div>
+
+            <p class="text-xl leading-relaxed tracking-wide text-justify pt-6">
+                خرید و فروش ماشین هم برای خریدار آن و هم برای فروشنده آن با دردسرهای زیادی روبرو است. خریدار همیشه دغدغه‌اش این است که یک ماشین سالم بخرد.
+            </p>
+        </div>
+
+        <div>
+            <h4 class="active bg-main-after text-2xl">خدمات ما</h4>
+
+            <ul class="text-xl">
+                <li class="mt-4">خرید اقساطی خودرو</li>
+
+                <li class="mt-4">دستیار خرید خودرو</li>
+
+                <li class="mt-4">آگهی‌های خودرو</li>
+            </ul>
+        </div>
+
+        <div>
+            <h4 class="active bg-main-after text-2xl">راهنما</h4>
+
+            <ul class="text-xl">
+                <li class="mt-4">خرید اقساطی خودرو</li>
+
+                <li class="mt-4">دستیار خرید خودرو</li>
+
+                <li class="mt-4">آگهی‌های خودرو</li>
+            </ul>
+        </div>
+
+        <div>
+            <h4 class="active bg-main-after text-2xl">تماس باما</h4>
+
+            <ul>
+                <li class="mt-4">
+                    <a href="tel:02145964444" class="flex gap-4 tracking-wider">
+                        <img src="./img/calling_black.svg" alt="calling_black">
+
+                        <span class="self-center">۰۲۱۴۵۹۶۴۴۴۴</span>
+                    </a>
+                </li>
+
+                <li class="mt-4">
+                    <a href="mailto:hi@honareresane.com" class="flex gap-4 tracking-wider">
+                        <img src="./img/mail.svg" alt="mail">
+
+                        <span class="self-center">hi@honareresane.com</span>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="flex gap-4 mt-4">
+                <img src="./img/instagram.svg" alt="instagram">
+
+                <img src="./img/telegram.svg" alt="telegram">
+
+                <img src="./img/whtasapp.svg" alt="whtasapp">
+            </div>
+        </div>
+    </div>
+
+    <hr class="border border-main my-6">
+
+    <p class="text-center text-xl">
+        طراحی شده توسط آژانس خلاقیت
+        <span class="text-main">هنر رسانه</span>
+    </p>
+</footer>
+
+<script src="./js/jQuery/jquery-3.6.3.min.js"></script>
+<script src="./js/OwlCarousel/owl.carousel.js"></script>
+
+<script>
+    $('.carousel').owlCarousel({
+        margin: 30,
+        nav: false,
+        loop: true,
+        rtl: true,
+        responsive: {
+            0: {
+                items: 2
+            },
+            600: {
+                items: 4
+            },
+            1000: {
+                items: 6
+            }
+        }
+    });
+
+    $('.carousel-recent').owlCarousel({
+        margin: 30,
+        nav: false,
+        loop: true,
+        rtl: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 2
+            },
+            1000: {
+                items: 4
+            }
+        }
+    });
+</script>
+</body>
+</html>

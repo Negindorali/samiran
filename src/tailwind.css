@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --main-color: #DC143C;
+    --main-background: #f7f7f7;
+}
+
+@font-face {
+    font-family: lalezar;
+    src: url("../font/Lalezar.ttf");
+}
+
+@font-face {
+    font-family: yekan;
+    src: url("../font/YekanBakh-Regular.ttf");
+}
+
+* {
+    font-family: yekan, sans-serif;
+}
+
+body {
+    background: var(--main-background);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.heading {
+    font-family: lalezar, sans-serif;
+}
+
+#menus > .active::after {
+    content: '';
+    width: 1.2rem;
+    display: block;
+    height: 0.12rem;
+    margin: auto;
+    background: var(--main-color);
+    border-radius: 39%;
+}
+
+.active::after {
+    content: '';
+    width: 1.7rem;
+    display: block;
+    height: 0.12rem;
+    border-radius: 39%;
+}
+
+.text-main {
+    color: var(--main-color);
+}
+
+.bg-main {
+    background: var(--main-color);
+}
+
+.bg-main-after::after {
+    background: var(--main-color);
+}
+
+.main-btn {
+    background: var(--main-color);
+    @apply rounded-lg text-white font-bold;
+}
+
+#info::after {
+    content: '';
+    background: url("../img/border.svg") no-repeat;
+    display: flex;
+    height: 1rem;
+    width: 17rem;
+    background-size: 100% 100%;
+    margin-right: 6rem;
+
+}
+
+.border-main{
+    border-color: var(--main-color);
+}
